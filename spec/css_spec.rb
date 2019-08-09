@@ -12,7 +12,7 @@ RSpec.describe 'styling' do
     it 'correctly links to the style.css file with a relative path' do
       link = parsed_html.search('link')[0]
       expect(link).to_not be_nil, "No <link> tag was found"
-      
+
     end
 
   end
